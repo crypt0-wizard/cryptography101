@@ -30,7 +30,7 @@ Dive deep into advanced topics, from elliptic curve cryptography to post-quantum
 
 ## Join Our Community
 
-Cryptography thrives on collaboration. Join our [Discord](https://discord.gg/your-discord-invite-link) to discuss challenges, share insights, and connect with fellow security enthusiasts. Or contribute directly to our [GitHub repository](https://github.com/crypt0-wizard/cryptography101) and help shape the future of this guide.
+Cryptography thrives on collaboration. Join our [Discord](https://discord.gg/NhTDBEjWvU) to discuss challenges, share insights, and connect with fellow security enthusiasts. Or contribute directly to our [GitHub repository](https://github.com/crypt0-wizard/cryptography101) and help shape the future of this guide.
 
 ::: tip Ready to Begin?
 Choose your path: [Start with Basics](/basic-terminology) or [Dive into Advanced Topics](/asymmetric/introduction)
