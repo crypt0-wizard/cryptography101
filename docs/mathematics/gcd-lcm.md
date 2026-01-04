@@ -66,11 +66,13 @@ $$\gcd(a, b) = \gcd(b, a \bmod b)$$
 
 Let's trace through the algorithm step by step:
 
-$$\begin{align}
+$$
+\begin{aligned}
 252 &= 2 \times 105 + 42 & \gcd(252, 105) &= \gcd(105, 42) \\
 105 &= 2 \times 42 + 21 & \gcd(105, 42) &= \gcd(42, 21) \\
 42 &= 2 \times 21 + 0 & \gcd(42, 21) &= \gcd(21, 0) = 21
-\end{align}$$
+\end{aligned}
+$$
 
 Therefore, $\gcd(252, 105) = 21$.
 
@@ -100,21 +102,25 @@ def extended_gcd(a, b):
 
 Working through our previous example:
 
-$$\begin{align}
+$$
+\begin{aligned}
 252 &= 2 \times 105 + 42 \\
 105 &= 2 \times 42 + 21 \\
 42 &= 2 \times 21 + 0
-\end{align}$$
+\end{aligned}
+$$
 
 **Back-substitution:**
 
-$$\begin{align}
+$$
+\begin{aligned}
 21 &= 105 - 2 \times 42 \\
 &= 105 - 2 \times (252 - 2 \times 105) \\
 &= 105 - 2 \times 252 + 4 \times 105 \\
 &= 5 \times 105 - 2 \times 252 \\
 &= (-2) \times 252 + 5 \times 105
-\end{align}$$
+\end{aligned}
+$$
 
 **Result:** $252 \times (-2) + 105 \times 5 = 21 = \gcd(252, 105)$
 
