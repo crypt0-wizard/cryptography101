@@ -1,19 +1,21 @@
 import { defineConfig } from 'vitepress'
-import markdownItKatex from 'markdown-it-katex'  // <-- install this locally first
+import markdownItKatex from 'markdown-it-katex'
 
 export default defineConfig({
   title: "Cryptography Guide",
   description: "A complete guide to cryptography and its role in CTF challenges.",
-
+  
   // Math support with KaTeX
   markdown: {
-    config(md) {
-      md.use(markdownItKatex)   // <-- this enables math
+    config: (md) => {
+      md.use(markdownItKatex)
     }
   },
-
-  // SEO and Site Configuration
+  
+  // Add KaTeX CSS
   head: [
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.css' }],
+    // Favicon
     // Favicon
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/cryptography.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
