@@ -250,6 +250,6 @@ export default defineConfig({
     },
 
     // Last Updated Configuration
-    lastUpdated: true,
-  },
-};
+    lastUpdated: true
+  }
+});
