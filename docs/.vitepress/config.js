@@ -1,6 +1,13 @@
-export default {
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
   title: "Cryptography Guide",
   description: "A complete guide to cryptography and its role in CTF challenges.",
+  
+  // Math support with KaTeX
+  markdown: {
+    math: true
+  },
   
   // SEO and Site Configuration
   head: [
