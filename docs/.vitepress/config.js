@@ -227,7 +227,7 @@ export default {
     // Social Links
     socialLinks: [
       { icon: "github", link: "https://github.com/crypt0-wizard/cryptography101.git" },
-      { icon: "discord", link: "https://discord.gg/your-discord-invite-link" }
+      { icon: "discord", link: "https://discord.gg/NhTDBEjWvU" }
     ],
 
     // Footer Configuration
