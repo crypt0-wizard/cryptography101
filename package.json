@@ -1,0 +1,20 @@
+{
+  "name": "cryptography101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "katex": "^0.16.27",
+    "markdown-it-katex": "^2.0.3",
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.13"
+  }
+}
