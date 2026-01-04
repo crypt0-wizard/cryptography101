@@ -284,12 +284,14 @@ Binary: $13 = 1101_2$
 
 Let $n_1, n_2, \ldots, n_k$ be pairwise coprime. The system:
 
-$$\begin{cases}
+$$$
+\begin{cases}
 x \equiv a_1 \pmod{n_1} \\
 x \equiv a_2 \pmod{n_2} \\
 \vdots \\
 x \equiv a_k \pmod{n_k}
-\end{cases}$$
+\end{cases}
+$$$
 
 has a **unique solution** modulo $N = n_1 n_2 \cdots n_k$.
 
@@ -336,10 +338,12 @@ Quadratic residues: $\{1, 2, 4\}$, Non-residues: $\{3, 5, 6\}$
 
 For odd prime $p$ and $\gcd(a, p) = 1$:
 
-$$\left(\frac{a}{p}\right) = \begin{cases}
+$$$
+\left(\frac{a}{p}\right) = \begin{cases}
 1 & \text{if } a \text{ is a QR mod } p \\
 -1 & \text{if } a \text{ is a QNR mod } p
-\end{cases}$$
+\end{cases}
+$$$
 
 **Euler's Criterion:**
 
