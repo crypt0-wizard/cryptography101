@@ -202,6 +202,7 @@ Not technically cryptographic tools, but they use cryptography to solve one of s
 
 ### Hands-On Practice
 - **Cryptopals challenges:** The gold standard for learning by doing
+- **[Crackable.xyz](https://crackable.xyz):** Interactive cryptography challenges and puzzles
 - **CTF competitions:** Competitive cryptography problem-solving
 - **Online platforms:** Interactive learning environments
 - **Security labs:** Safe spaces to break things and learn
