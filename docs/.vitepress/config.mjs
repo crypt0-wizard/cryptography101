@@ -51,7 +51,7 @@ export default defineConfig({
 
   themeConfig: {
     // Site Logo
-    logo: '/cryptography.png',
+    // logo: '/cryptography.png',
     
     // Search Configuration
     search: {
